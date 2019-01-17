@@ -1,6 +1,12 @@
-# nix
+# nix 
 
-## Environment vars:
+## Files
+```
+$HOME/.nix-profile/etc/profile.d/nix.sh
+$HOME/.nix-defexpr/channels/nixpkgs/pkgs/top-level/
+$HOME/.nix-defexpr/channels/nixpkgs/pkgs/top-level/default.nix
+
+## Environment vars
 ```
 echo $NIX_PATH
 ```
