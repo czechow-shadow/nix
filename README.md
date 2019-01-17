@@ -5,6 +5,7 @@
 $HOME/.nix-profile/etc/profile.d/nix.sh
 $HOME/.nix-defexpr/channels/nixpkgs/pkgs/top-level/
 $HOME/.nix-defexpr/channels/nixpkgs/pkgs/top-level/default.nix
+```
 
 ## Environment vars
 ```
