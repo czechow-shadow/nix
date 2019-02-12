@@ -1,5 +1,12 @@
 # nix 
 
+## Installation
+```
+curl https://nixos.org/nix/install | sh
+```
+On `error: cloning builder process: Operation not permitted` do: `sysctl kernel.unprivileged_userns_clone=1` (does it survive a system restart?)
+
+
 ## Files
 ```
 $HOME/.nix-profile/etc/profile.d/nix.sh
