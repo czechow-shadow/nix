@@ -4,7 +4,9 @@
 ```
 curl https://nixos.org/nix/install | sh
 ```
-On `error: cloning builder process: Operation not permitted` do: `sysctl kernel.unprivileged_userns_clone=1` (does it survive a system restart?)
+On `error: cloning builder process: Operation not permitted` do: 
+  - CentOS: add `sandbox = true` to `/etc/nix/nix.conf`
+  - Debian (and possibly others): do `sysctl kernel.unprivileged_userns_clone=1` (it probably does not survive a system restart)
 
 
 ## Files
